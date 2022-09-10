@@ -1,0 +1,46 @@
+
+  .singleQuestion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+  }
+  .homeButton{
+    width: 100%;
+  }
+  .singleOption {
+    width: 100%;
+    height: 40px;
+    margin-top:3px ;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .error{
+    color:#e35759;
+  }
+  .controls {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .select {
+    background-color: #b0bc64;
+    color: white;
+  }
+  
+  .wrong {
+    background-color:  #e35759;
+    color: white;
+  }
